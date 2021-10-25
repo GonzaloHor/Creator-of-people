@@ -122,3 +122,19 @@ body{
 .btn_X_Display{
     display: none;
     }
+
+    @media (max-width: 450px) {
+        .card{
+            width: 350px;
+            height: 450px;
+        }
+        .name{
+            margin-top: 50px;
+            margin-left: 30px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        h3{
+            margin-left: 30px;
+        }
+      }
