@@ -1,0 +1,124 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    --main-color: #264653;
+    --second-color: #2A9D8F;
+  
+}
+
+
+body{
+    background: var(--main-color);
+    font-family: 'Questrial', sans-serif;
+}
+
+.btn_people{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background: var(--second-color);
+    box-shadow: 9px 10px 26px -3px rgba(0,0,0,0.51);
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn_people:hover{
+    cursor: pointer;
+    background: var(--main-color);
+    box-shadow: inset 0 0 0 3px var(--second-color);
+    box-shadow: 9px 10px 26px -3px rgba(0,0,0,0.51);
+
+    color: var(--second-color);
+
+}
+
+.btn_X{
+    padding: 15px;
+    border-radius: 50px;
+    width: 50px;
+    border: none;
+    background: rgb(216, 58, 58);
+    box-shadow: 9px 10px 26px -3px rgba(0,0,0,0.51);
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn_X:hover{
+    cursor: pointer;
+    background: var(--main-color);
+    box-shadow: inset 0 0 0 3px var(--second-color);
+    box-shadow: 9px 10px 26px -3px rgba(0,0,0,0.51);
+
+    color: var(--second-color);
+}
+
+
+.principal_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.coment{
+    font-size: 10px;
+}
+
+.card{
+    width: 450px;
+    height: 450px;
+    background: #2A9D8F;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    -webkit-box-shadow: 10px 11px 16px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 11px 16px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 16px -4px rgba(0,0,0,0.75);
+}
+
+
+.header_card{
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    display: flex;
+    border-bottom:  solid var(--main-color) 5px;;
+    text-align: center;
+    
+}
+
+
+.name{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.imgClient{
+    margin:10px;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.info{
+    margin-top: 21px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dates{
+    font-family: 'Questrial', sans-serif;
+    font-weight: normal;
+    margin-right: 15px;
+}
+.btn_X_Display{
+    display: none;
+    }
